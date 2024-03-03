@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IntelliCrop.Application\Application.csproj" />
+    <ProjectReference Include="..\IntelliCrop.Domain\Domain.csproj" />
+    <ProjectReference Include="..\IntelliCrop.Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
